@@ -5,7 +5,7 @@
         </div>
         <div class="btn-container">
             <fa-icon [icon]="faCirclePlus" (click)="addToShoppingList(receivedPantryItem)" *ngIf="receivedPantryItem.added == false"></fa-icon>
-            <fa-icon [icon]="faCircleCheck" (click)="addToShoppingList(receivedPantryItem)" *ngIf="receivedPantryItem.added == true"></fa-icon>
+            <fa-icon [icon]="faCircleCheck" (click)="removeFromShoppingList(receivedPantryItem)" *ngIf="receivedPantryItem.added == true"></fa-icon>
         </div>
     </div>
 </div>

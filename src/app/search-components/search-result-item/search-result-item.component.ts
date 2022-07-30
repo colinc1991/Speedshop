@@ -24,8 +24,11 @@ export class SearchResultItemComponent implements OnInit {
     }
 
     addToShoppingList(pantryItem: PantryItem): void{
-        pantryItem.added = true;
         this.shoppingListService.addItemToShoppingList(pantryItem)
+    }
+
+    removeFromShoppingList(pantryItem: PantryItem): void{
+        this.shoppingListService.removeItemFromShoppingList(pantryItem);
     }
 
     addRecipeToShoppingList(recipe: Recipe): void{
