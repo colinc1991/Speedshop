@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px white solid;
+    margin-bottom: 15px;
+
+    .btn-container{
+        cursor: pointer;
+    }
+}
