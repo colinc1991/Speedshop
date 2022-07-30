@@ -33,6 +33,7 @@ export class ShoppingListService {
     }
 
     removeItemFromShoppingList(item: PantryItem) {
+        item.added = false;
         if (this.shoppingListItems.includes(item)) {
             this.shoppingListItems = this.shoppingListItems.filter(shoppingListItem => shoppingListItem != item);
 
