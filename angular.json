@@ -17,6 +17,11 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
+                        "stylePreprocessorOptions": {
+                            "includePaths": [
+                                "src/assets"
+                            ]
+                        },
                         "outputPath": "dist/speedshop-v2",
                         "index": "src/index.html",
                         "main": "src/main.ts",
