@@ -1,8 +1,14 @@
-.flex{
+@import "params.scss";
+
+.flex {
     display: flex;
     justify-content: space-between;
 
-    .btn-container{
+    .btn-container {
         cursor: pointer;
+    }
+
+    fa-icon {
+        color: $primary-accent-color;
     }
 }

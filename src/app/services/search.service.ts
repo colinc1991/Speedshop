@@ -21,15 +21,18 @@ export class SearchService {
     private recipeItems: Recipe[] = [
         {
             name: 'Burritos',
-            ingredients: [{ name: 'Refried beans', added: false }]
+            ingredients: [{ name: 'Refried beans', added: false }],
+            added: false
         },
         {
             name: 'Spicy chicken pasta',
-            ingredients: [{ name: 'Chicken', added: false }]
+            ingredients: [{ name: 'Chicken', added: false }],
+            added: false
         },
         {
-            name: 'Chicken caesar sala',
-            ingredients: [{ name: 'Croutons', added: false }]
+            name: 'Chicken caesar salad',
+            ingredients: [{ name: 'Croutons', added: false }],
+            added: false
         }
     ]
 

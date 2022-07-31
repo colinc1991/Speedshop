@@ -8,7 +8,7 @@ export class ShoppingListService {
 
     shoppingListItems: PantryItem[] = [];
     shoppingListItemsChanged = new EventEmitter<PantryItem[]>();
-    
+
     constructor() { }
 
     ngOnInit(): void {
@@ -24,6 +24,7 @@ export class ShoppingListService {
     }
 
     addRecipeToShoppingList(recipe: Recipe) {
+        recipe.added = true;
         recipe.ingredients.forEach(ingredient => {
             if (!this.shoppingListItems.includes(ingredient)) {
                 ingredient.added = true;
@@ -41,5 +42,17 @@ export class ShoppingListService {
 
             this.shoppingListItemsChanged.emit(this.shoppingListItems);
         }
+    }
+
+    removeRecipeFromShoppingList(recipe: Recipe) {
+        recipe.added = false;
+        recipe.ingredients.forEach(ingredient => {
+            if (this.shoppingListItems.includes(ingredient)) {
+                ingredient.added = false;
+                this.shoppingListItems = this.shoppingListItems.filter(shoppingListItem => shoppingListItem != ingredient);
+
+                this.shoppingListItemsChanged.emit(this.shoppingListItems);
+            }
+        });
     }
 }

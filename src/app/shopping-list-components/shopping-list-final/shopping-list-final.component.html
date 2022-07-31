@@ -1,1 +1,10 @@
-<p>shopping-list-final works!</p>
+<div *ngFor="let aisle of aisles" class="main-container container">
+    <h3>Aisle no. {{aisle.number}}</h3>
+
+    <div *ngFor="let category of aisle.categories">
+        <div *ngFor="let product of category.products">
+            <input type="checkbox" [id]=product.name>
+            <label [for]=product.name>{{product.name}}</label>
+        </div>
+    </div>
+</div>

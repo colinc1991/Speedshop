@@ -16,7 +16,8 @@
             {{receivedRecipe.name}}
         </div>
         <div class="btn-container">
-            <fa-icon [icon]="faCirclePlus" (click)="addRecipeToShoppingList(receivedRecipe)"></fa-icon>
+            <fa-icon [icon]="faCirclePlus" (click)="addRecipeToShoppingList(receivedRecipe)" *ngIf="receivedRecipe.added == false"></fa-icon>
+            <fa-icon [icon]="faCircleCheck" (click)="removeRecipeFromShoppingList(receivedRecipe)" *ngIf="receivedRecipe.added == true"></fa-icon>
         </div>
     </div>
 </div>

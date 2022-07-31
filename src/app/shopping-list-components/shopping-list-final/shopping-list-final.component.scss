@@ -1,0 +1,32 @@
+@import "params.scss";
+
+.main-container {
+    background-color: $lighter-background-color;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+    h3 {
+        text-align: center;
+    }
+
+    input[type='checkbox'] {
+        accent-color: $secondary-accent-color;
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(2);
+        /* IE */
+        -moz-transform: scale(2);
+        /* FF */
+        -webkit-transform: scale(2);
+        /* Safari and Chrome */
+        -o-transform: scale(2);
+        /* Opera */
+        transform: scale(2);
+        margin: 10px;
+    }
+
+    label {
+        padding-left: 10px;
+    }
+}

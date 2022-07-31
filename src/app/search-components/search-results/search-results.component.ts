@@ -16,21 +16,20 @@ export class SearchResultsComponent implements OnInit {
     constructor(private searchService: SearchService) { }
     
     ngOnInit(): void {
-        // if no items, get them from the search service
-        if (this.pantryItems.length == 0){
-            this.pantryItems = this.searchService.getPantryItems();
-        }
-
-        if (this.recipes.length == 0){
-            this.recipes = this.searchService.getRecipes();
-        }
-
         if (this.mode == 'Pantry'){
+            if (this.pantryItems.length == 0){
+                this.pantryItems = this.searchService.getPantryItems();
+            }
+
             this.searchService.pantryListItemsChanged.subscribe((newItems)=>{
                 this.pantryItems = newItems;
             })
         }
         else{
+            if (this.recipes.length == 0){
+                this.recipes = this.searchService.getRecipes();
+            }
+            
             this.searchService.recipeListItemsChanged.subscribe((newItems)=>{
                 this.recipes = newItems;
             })

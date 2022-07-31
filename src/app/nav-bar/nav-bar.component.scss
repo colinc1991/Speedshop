@@ -1,3 +1,13 @@
+@import "params.scss";
+
+.navbar{
+    margin-bottom: 20px;
+}
+
 ul.dropdown-menu li{
     cursor: pointer;
+}
+
+a.navbar-brand{
+    color: $primary-accent-color;
 }
