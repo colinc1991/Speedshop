@@ -13,29 +13,29 @@ export class SearchResultItemComponent implements OnInit {
     @Input() receivedPantryItem: PantryItem = new PantryItem;
     @Input() receivedRecipe: Recipe = new Recipe;
     @Input() mode: string = '';
-    
+
     faCirclePlus = faCirclePlus;
     faCircleCheck = faCircleCheck;
 
     constructor(private shoppingListService: ShoppingListService) { }
 
     ngOnInit(): void {
-        
+
     }
 
-    addToShoppingList(pantryItem: PantryItem): void{
+    addToShoppingList(pantryItem: PantryItem): void {
         this.shoppingListService.addItemToShoppingList(pantryItem)
     }
 
-    removeFromShoppingList(pantryItem: PantryItem): void{
+    removeFromShoppingList(pantryItem: PantryItem): void {
         this.shoppingListService.removeItemFromShoppingList(pantryItem);
     }
 
-    addRecipeToShoppingList(recipe: Recipe): void{
+    addRecipeToShoppingList(recipe: Recipe): void {
         this.shoppingListService.addRecipeToShoppingList(recipe)
     }
 
-    removeRecipeFromShoppingList(recipe: Recipe): void{
+    removeRecipeFromShoppingList(recipe: Recipe): void {
         this.shoppingListService.removeRecipeFromShoppingList(recipe);
     }
 }

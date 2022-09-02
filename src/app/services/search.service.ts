@@ -15,13 +15,17 @@ export class SearchService {
         }, {
             name: 'Pineapple',
             added: false
+        },
+        { 
+            name: 'Chicken',
+            added: false 
         }
     ]
 
     private recipeItems: Recipe[] = [
         {
             name: 'Burritos',
-            ingredients: [{ name: 'Refried beans', added: false }],
+            ingredients: [{ name: 'Refried beans', added: false }, { name: 'Chicken', added: false }],
             added: false
         },
         {
@@ -42,11 +46,11 @@ export class SearchService {
 
     constructor() { }
 
-    getPantryItems(): PantryItem[]{
+    getPantryItems(): PantryItem[] {
         return this.pantryItems;
     }
 
-    getRecipes(): Recipe[]{
+    getRecipes(): Recipe[] {
         return this.recipeItems;
     }
 

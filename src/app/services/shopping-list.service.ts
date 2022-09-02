@@ -15,7 +15,7 @@ export class ShoppingListService {
     }
 
     addItemToShoppingList(pantryItem: PantryItem) {
-        if (!this.shoppingListItems.includes(pantryItem)) {
+        if (!this.shoppingListItems.map(i => i.name).includes(pantryItem.name)) {
             pantryItem.added = true;
             this.shoppingListItems.push(pantryItem);
 
@@ -26,19 +26,18 @@ export class ShoppingListService {
     addRecipeToShoppingList(recipe: Recipe) {
         recipe.added = true;
         recipe.ingredients.forEach(ingredient => {
-            if (!this.shoppingListItems.includes(ingredient)) {
+            if (!this.shoppingListItems.map(i => i.name).includes(ingredient.name)) {
                 ingredient.added = true;
                 this.shoppingListItems.push(ingredient);
-
-                this.shoppingListItemsChanged.emit(this.shoppingListItems);
             }
         });
+        this.shoppingListItemsChanged.emit(this.shoppingListItems);
     }
 
     removeItemFromShoppingList(item: PantryItem) {
         if (this.shoppingListItems.includes(item)) {
             item.added = false;
-            this.shoppingListItems = this.shoppingListItems.filter(shoppingListItem => shoppingListItem != item);
+            this.shoppingListItems = this.shoppingListItems.filter(shoppingListItem => shoppingListItem.name != item.name);
 
             this.shoppingListItemsChanged.emit(this.shoppingListItems);
         }
@@ -47,12 +46,11 @@ export class ShoppingListService {
     removeRecipeFromShoppingList(recipe: Recipe) {
         recipe.added = false;
         recipe.ingredients.forEach(ingredient => {
-            if (this.shoppingListItems.includes(ingredient)) {
+            if (this.shoppingListItems.map(i => i.name).includes(ingredient.name)) {
                 ingredient.added = false;
-                this.shoppingListItems = this.shoppingListItems.filter(shoppingListItem => shoppingListItem != ingredient);
-
-                this.shoppingListItemsChanged.emit(this.shoppingListItems);
+                this.shoppingListItems = this.shoppingListItems.filter(shoppingListItem => shoppingListItem.name != ingredient.name);
             }
         });
+        this.shoppingListItemsChanged.emit(this.shoppingListItems);
     }
 }
