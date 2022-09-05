@@ -14,6 +14,10 @@ import { ShoppingListInProgressComponent } from './shopping-list-components/shop
 import { ShoppingListInProgressItemComponent } from './shopping-list-components/shopping-list-in-progress-item/shopping-list-in-progress-item.component';
 import { ShoppingListComponent } from './shopping-list-components/shopping-list/shopping-list.component';
 import { ShoppingListCreateComponent } from './shopping-list-components/shopping-list-create/shopping-list-create.component';
+import { WidgetTestComponent } from './widget-test/widget-test.component';
+import { WidgetHeaderComponent } from './widget-header/widget-header.component';
+import { WidgetFooterComponent } from './widget-footer/widget-footer.component';
+import { WidgetBoxComponent } from './widget-box/widget-box.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +31,11 @@ import { ShoppingListCreateComponent } from './shopping-list-components/shopping
         ShoppingListInProgressComponent,
         ShoppingListInProgressItemComponent,
         ShoppingListComponent,
-        ShoppingListCreateComponent
+        ShoppingListCreateComponent,
+        WidgetTestComponent,
+        WidgetHeaderComponent,
+        WidgetFooterComponent,
+        WidgetBoxComponent
     ],
     imports: [
         BrowserModule,
