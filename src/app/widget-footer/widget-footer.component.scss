@@ -1,0 +1,14 @@
+@import "params.scss";
+
+.footer-container {
+    height: $header-footer-height;
+
+    input[type="text"] {
+        background: transparent;
+        border: none;
+    }
+
+    input:focus{
+        outline: none;
+    }
+}

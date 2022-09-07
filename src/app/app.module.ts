@@ -29,7 +29,14 @@ import { CustomSelectComponent } from './custom-select/custom-select.component';
         ShoppingListInProgressItemComponent,
         ShoppingListComponent,
         ShoppingListCreateComponent,
+<<<<<<< HEAD
         CustomSelectComponent
+=======
+        WidgetTestComponent,
+        WidgetHeaderComponent,
+        WidgetFooterComponent,
+        WidgetBoxComponent
+>>>>>>> a415f1d90cc620139d1d3621295ab49dc7a98dbf
     ],
     imports: [
         BrowserModule,
