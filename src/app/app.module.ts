@@ -14,6 +14,7 @@ import { ShoppingListInProgressComponent } from './shopping-list-components/shop
 import { ShoppingListInProgressItemComponent } from './shopping-list-components/shopping-list-in-progress-item/shopping-list-in-progress-item.component';
 import { ShoppingListComponent } from './shopping-list-components/shopping-list/shopping-list.component';
 import { ShoppingListCreateComponent } from './shopping-list-components/shopping-list-create/shopping-list-create.component';
+import { CustomSelectComponent } from './custom-select/custom-select.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { ShoppingListCreateComponent } from './shopping-list-components/shopping
         ShoppingListInProgressComponent,
         ShoppingListInProgressItemComponent,
         ShoppingListComponent,
-        ShoppingListCreateComponent
+        ShoppingListCreateComponent,
+        CustomSelectComponent
     ],
     imports: [
         BrowserModule,

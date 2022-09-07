@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { faCircleMinus, faGrinTongueSquint } from '@fortawesome/free-solid-svg-icons';
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons';
 import { PantryItem } from 'src/app/dtos';
 import { ShoppingListService } from 'src/app/services/shopping-list.service';
 
