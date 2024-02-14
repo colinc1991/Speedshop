@@ -77,10 +77,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "SpeedshopV2:build:production"
+                          "buildTarget": "SpeedshopV2:build:production"
                         },
                         "development": {
-                            "browserTarget": "SpeedshopV2:build:development"
+                          "buildTarget": "SpeedshopV2:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "SpeedshopV2:build"
+                      "buildTarget": "SpeedshopV2:build"
                     }
                 },
                 "test": {
