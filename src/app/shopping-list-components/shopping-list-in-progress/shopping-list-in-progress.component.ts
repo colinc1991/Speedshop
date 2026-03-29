@@ -6,7 +6,8 @@ import { PantryItem } from 'src/app/dtos';
 @Component({
     selector: 'app-shopping-list-in-progress',
     templateUrl: './shopping-list-in-progress.component.html',
-    styleUrls: ['./shopping-list-in-progress.component.scss']
+    styleUrls: ['./shopping-list-in-progress.component.scss'],
+    standalone: false
 })
 export class ShoppingListInProgressComponent implements OnInit {
     shoppingListItems: PantryItem[] = [];

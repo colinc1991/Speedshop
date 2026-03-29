@@ -4,7 +4,8 @@ import { ProductService } from '../services/product.service';
 @Component({
     selector: 'app-test',
     templateUrl: './test.component.html',
-    styleUrl: './test.component.scss'
+    styleUrl: './test.component.scss',
+    standalone: false
 })
 export class TestComponent implements OnInit {
     products: any[] = [];

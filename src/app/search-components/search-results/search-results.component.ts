@@ -7,7 +7,8 @@ import { ShoppingListService } from 'src/app/services/shopping-list.service';
 @Component({
     selector: 'app-search-results',
     templateUrl: './search-results.component.html',
-    styleUrls: ['./search-results.component.scss']
+    styleUrls: ['./search-results.component.scss'],
+    standalone: false
 })
 export class SearchResultsComponent implements OnInit {
     pantryItems: PantryItem[] = [];

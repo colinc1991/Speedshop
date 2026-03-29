@@ -6,7 +6,8 @@ import { ShoppingListService } from 'src/app/services/shopping-list.service';
 @Component({
     selector: 'app-shopping-list-in-progress-item',
     templateUrl: './shopping-list-in-progress-item.component.html',
-    styleUrls: ['./shopping-list-in-progress-item.component.scss']
+    styleUrls: ['./shopping-list-in-progress-item.component.scss'],
+    standalone: false
 })
 export class ShoppingListInProgressItemComponent implements OnInit {
     @Input() shoppingListItem: PantryItem = new PantryItem;
