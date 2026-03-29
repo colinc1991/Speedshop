@@ -13,12 +13,16 @@ export class NavBarComponent implements OnInit {
     ngOnInit(): void {
     }
 
-    goToShoppingListCreate(){
+    goToShoppingListCreate() {
         this.router.navigate(['/shopping-list/create']);
     }
 
-    goToShoppingListView(){
+    goToShoppingListView() {
         this.router.navigate(['/shopping-list/view']);
+    }
+
+    goToTest() {
+        this.router.navigate(['/test']);
     }
 
 }

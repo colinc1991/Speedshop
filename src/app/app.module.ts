@@ -6,6 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search-components/search/search.component';
 import { SearchResultsComponent } from './search-components/search-results/search-results.component';
 import { SearchResultItemComponent } from './search-components/search-result-item/search-result-item.component';
@@ -15,6 +16,7 @@ import { ShoppingListInProgressItemComponent } from './shopping-list-components/
 import { ShoppingListComponent } from './shopping-list-components/shopping-list/shopping-list.component';
 import { ShoppingListCreateComponent } from './shopping-list-components/shopping-list-create/shopping-list-create.component';
 import { CustomSelectComponent } from './custom-select/custom-select.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
     declarations: [
@@ -29,13 +31,15 @@ import { CustomSelectComponent } from './custom-select/custom-select.component';
         ShoppingListInProgressItemComponent,
         ShoppingListComponent,
         ShoppingListCreateComponent,
-        CustomSelectComponent
+        CustomSelectComponent,
+        TestComponent
     ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         FontAwesomeModule,
-        FormsModule
+        FormsModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
