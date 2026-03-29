@@ -7,7 +7,8 @@ import { ShoppingListService } from 'src/app/services/shopping-list.service';
 @Component({
     selector: 'app-search-result-item',
     templateUrl: './search-result-item.component.html',
-    styleUrls: ['./search-result-item.component.scss']
+    styleUrls: ['./search-result-item.component.scss'],
+    standalone: false
 })
 export class SearchResultItemComponent implements OnInit {
     @Input() receivedPantryItem: PantryItem = new PantryItem;

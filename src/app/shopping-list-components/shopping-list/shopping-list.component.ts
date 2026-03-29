@@ -5,7 +5,8 @@ import { ShoppingListService } from '../../services/shopping-list.service';
 @Component({
     selector: 'app-shopping-list',
     templateUrl: './shopping-list.component.html',
-    styleUrls: ['./shopping-list.component.scss']
+    styleUrls: ['./shopping-list.component.scss'],
+    standalone: false
 })
 export class ShoppingListComponent implements OnInit {
 
@@ -13,7 +14,7 @@ export class ShoppingListComponent implements OnInit {
     constructor(private shoppingListService: ShoppingListService) { }
 
     ngOnInit(): void {
-        this.shoppingListService.shoppingListItemsChanged.subscribe((newItems)=>{
+        this.shoppingListService.shoppingListItemsChanged.subscribe((newItems) => {
             this.shoppingListItems = newItems;
         })
     }

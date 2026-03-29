@@ -1,0 +1,900 @@
+{
+    "products": [
+        {
+            "productName": "Chicken breast",
+            "aisle": 1
+        },
+        {
+            "productName": "Pizza",
+            "aisle": 2
+        },
+        {
+            "productName": "Chicken thighs",
+            "aisle": 1
+        },
+        {
+            "productName": "Steak",
+            "aisle": 1
+        },
+        {
+            "productName": "Lemons",
+            "aisle": 0
+        },
+        {
+            "productName": "Oranges",
+            "aisle": 0
+        },
+        {
+            "productName": "Potatoes",
+            "aisle": 0
+        },
+        {
+            "productName": "Limes",
+            "aisle": 0
+        },
+        {
+            "productName": "Lettuce",
+            "aisle": 0
+        },
+        {
+            "productName": "Pork chops",
+            "aisle": 1
+        },
+        {
+            "productName": "Milk",
+            "aisle": 3
+        },
+        {
+            "productName": "Double cream",
+            "aisle": 3
+        },
+        {
+            "productName": "Leeks",
+            "aisle": 0
+        },
+        {
+            "productName": "Onions",
+            "aisle": 0
+        },
+        {
+            "productName": "Peppers",
+            "aisle": 0
+        },
+        {
+            "productName": "Butter",
+            "aisle": 4
+        },
+        {
+            "productName": "Refried beans",
+            "aisle": 5
+        },
+        {
+            "productName": "Cereal",
+            "aisle": 8
+        },
+        {
+            "productName": "Sour cream",
+            "aisle": 10
+        },
+        {
+            "productName": "Flour",
+            "aisle": 13
+        },
+        {
+            "productName": "Peanut butter",
+            "aisle": 13
+        },
+        {
+            "productName": "Bread",
+            "aisle": 14
+        },
+        {
+            "productName": "Croissants",
+            "aisle": 14
+        },
+        {
+            "productName": "Waffles",
+            "aisle": 14
+        },
+        {
+            "productName": "Cream cheese",
+            "aisle": 4
+        },
+        {
+            "productName": "Bagels",
+            "aisle": 14
+        },
+        {
+            "productName": "Avocado",
+            "aisle": 0
+        },
+        {
+            "productName": "Halloumi",
+            "aisle": 4
+        },
+        {
+            "productName": "Rolls",
+            "aisle": 14
+        },
+        {
+            "productName": "Square sausage",
+            "aisle": 1
+        },
+        {
+            "productName": "Hummus",
+            "aisle": 2
+        },
+        {
+            "productName": "Bacon",
+            "aisle": 1
+        },
+        {
+            "productName": "Cranberry juice",
+            "aisle": 3
+        },
+        {
+            "productName": "Chicken stock cubes",
+            "aisle": 7
+        },
+        {
+            "productName": "Crisps",
+            "aisle": 10
+        },
+        {
+            "productName": "Biscoff biscuits",
+            "aisle": 9
+        },
+        {
+            "productName": "Washing up powder",
+            "aisle": 20
+        },
+        {
+            "productName": "Baguettes",
+            "aisle": 14
+        },
+        {
+            "productName": "Potato scone",
+            "aisle": 14
+        },
+        {
+            "productName": "Ribeye steak",
+            "aisle": 1
+        },
+        {
+            "productName": "Wraps",
+            "aisle": 14
+        },
+        {
+            "productName": "Salad",
+            "aisle": 0
+        },
+        {
+            "productName": "Caramel",
+            "aisle": 13
+        },
+        {
+            "productName": "Bananas",
+            "aisle": 0
+        },
+        {
+            "productName": "Digestives",
+            "aisle": 9
+        },
+        {
+            "productName": "Whipped cream",
+            "aisle": 3
+        },
+        {
+            "productName": "Mild cheddar",
+            "aisle": 4
+        },
+        {
+            "productName": "Mature cheddar",
+            "aisle": 4
+        },
+        {
+            "productName": "Mustard",
+            "aisle": 7
+        },
+        {
+            "productName": "Raspberry lucosade",
+            "aisle": 12
+        },
+        {
+            "productName": "Crumpets",
+            "aisle": 14
+        },
+        {
+            "productName": "Parmesan",
+            "aisle": 4
+        },
+        {
+            "productName": "Eggs",
+            "aisle": 10
+        },
+        {
+            "productName": "Salad dressing",
+            "aisle": 0
+        },
+        {
+            "productName": "Coffee",
+            "aisle": 7
+        },
+        {
+            "productName": "Nutella",
+            "aisle": 13
+        },
+        {
+            "productName": "Carrots",
+            "aisle": 0
+        },
+        {
+            "productName": "Turnip",
+            "aisle": 0
+        },
+        {
+            "productName": "Biscoff smooth",
+            "aisle": 13
+        },
+        {
+            "productName": "Biscoff crunchy",
+            "aisle": 13
+        },
+        {
+            "productName": "Jam",
+            "aisle": 13
+        },
+        {
+            "productName": "Croutons",
+            "aisle": 0
+        },
+        {
+            "productName": "Chorizo",
+            "aisle": 1
+        },
+        {
+            "productName": "Purple grape juice",
+            "aisle": 3
+        },
+        {
+            "productName": "Smoked salmon",
+            "aisle": 1
+        },
+        {
+            "productName": "Tinned tomatoes",
+            "aisle": 6
+        },
+        {
+            "productName": "Aperol",
+            "aisle": 17
+        },
+        {
+            "productName": "Food waste bags",
+            "aisle": 19
+        },
+        {
+            "productName": "Toothpaste",
+            "aisle": 23
+        },
+        {
+            "productName": "Carex",
+            "aisle": 24
+        },
+        {
+            "productName": "Toilet roll",
+            "aisle": 21
+        },
+        {
+            "productName": "Apples",
+            "aisle": 0
+        },
+        {
+            "productName": "Custard",
+            "aisle": 13
+        },
+        {
+            "productName": "Pepper",
+            "aisle": 8
+        },
+        {
+            "productName": "Rice",
+            "aisle": 5
+        },
+        {
+            "productName": "Beef mince",
+            "aisle": 1
+        },
+        {
+            "productName": "Taco seasoning",
+            "aisle": 5
+        },
+        {
+            "productName": "Tortilla crisps",
+            "aisle": 10
+        },
+        {
+            "productName": "Spring onions",
+            "aisle": 0
+        },
+        {
+            "productName": "HobNobs",
+            "aisle": 9
+        },
+        {
+            "productName": "Burger sauce",
+            "aisle": 7
+        },
+        {
+            "productName": "Macadamia nuts",
+            "aisle": 13
+        },
+        {
+            "productName": "Garlic",
+            "aisle": 0
+        },
+        {
+            "productName": "Ham",
+            "aisle": 1
+        },
+        {
+            "productName": "Applewood cheese",
+            "aisle": 4
+        },
+        {
+            "productName": "Red onion",
+            "aisle": 0
+        },
+        {
+            "productName": "Tomatoes",
+            "aisle": 0
+        },
+        {
+            "productName": "Tiger bread",
+            "aisle": 14
+        },
+        {
+            "productName": "Basil leaves",
+            "aisle": 0
+        },
+        {
+            "productName": "Cumin",
+            "aisle": 8
+        },
+        {
+            "productName": "Paninis",
+            "aisle": 14
+        },
+        {
+            "productName": "Tropicana orange juice smooth",
+            "aisle": 3
+        },
+        {
+            "productName": "Spinach",
+            "aisle": 0
+        },
+        {
+            "productName": "Irn bru",
+            "aisle": 12
+        },
+        {
+            "productName": "Olive oil",
+            "aisle": 10
+        },
+        {
+            "productName": "Link sausage",
+            "aisle": 1
+        },
+        {
+            "productName": "Parsley",
+            "aisle": 8
+        },
+        {
+            "productName": "Decaf coffee",
+            "aisle": 7
+        },
+        {
+            "productName": "Brown sugar",
+            "aisle": 14
+        },
+        {
+            "productName": "Smoked paprika",
+            "aisle": 8
+        },
+        {
+            "productName": "Ground turkey",
+            "aisle": 1
+        },
+        {
+            "productName": "Panko",
+            "aisle": 5
+        },
+        {
+            "productName": "Ketchup",
+            "aisle": 7
+        },
+        {
+            "productName": "Light muscovado sugar",
+            "aisle": 13
+        },
+        {
+            "productName": "Buttermilk",
+            "aisle": 3
+        },
+        {
+            "productName": "Basil",
+            "aisle": 8
+        },
+        {
+            "productName": "Oregano",
+            "aisle": 8
+        },
+        {
+            "productName": "Maple syrup",
+            "aisle": 13
+        },
+        {
+            "productName": "Golden caster sugar",
+            "aisle": 14
+        },
+        {
+            "productName": "Brown rice",
+            "aisle": 5
+        },
+        {
+            "productName": "Ham stock cubes",
+            "aisle": 7
+        },
+        {
+            "productName": "Salmon fillet",
+            "aisle": 1
+        },
+        {
+            "productName": "Sweet potato",
+            "aisle": 0
+        },
+        {
+            "productName": "Condensed milk",
+            "aisle": 13
+        },
+        {
+            "productName": "Extra mature cheddar",
+            "aisle": 4
+        },
+        {
+            "productName": "Salsa",
+            "aisle": 5
+        },
+        {
+            "productName": "Mayonnaise",
+            "aisle": 7
+        },
+        {
+            "productName": "Lemonade",
+            "aisle": 12
+        },
+        {
+            "productName": "Raspberries",
+            "aisle": 0
+        },
+        {
+            "productName": "Strawberries",
+            "aisle": 0
+        },
+        {
+            "productName": "Parma ham",
+            "aisle": 1
+        },
+        {
+            "productName": "White sugar",
+            "aisle": 14
+        },
+        {
+            "productName": "Apple juice",
+            "aisle": 3
+        },
+        {
+            "productName": "Caster sugar",
+            "aisle": 13
+        },
+        {
+            "productName": "Garlic powder",
+            "aisle": 8
+        },
+        {
+            "productName": "Chocolate croissants",
+            "aisle": 14
+        },
+        {
+            "productName": "Whole chicken",
+            "aisle": 1
+        },
+        {
+            "productName": "Coke",
+            "aisle": 12
+        },
+        {
+            "productName": "Brioche buns",
+            "aisle": 14
+        },
+        {
+            "productName": "Icing sugar",
+            "aisle": 13
+        },
+        {
+            "productName": "Focaccia",
+            "aisle": 14
+        },
+        {
+            "productName": "Lentils",
+            "aisle": 5
+        },
+        {
+            "productName": "Dish soap",
+            "aisle": 20
+        },
+        {
+            "productName": "Beansprouts",
+            "aisle": 0
+        },
+        {
+            "productName": "Chow mein sauce",
+            "aisle": 5
+        },
+        {
+            "productName": "Pork shoulder",
+            "aisle": 1
+        },
+        {
+            "productName": "White wine vinegar",
+            "aisle": 10
+        },
+        {
+            "productName": "Passatta",
+            "aisle": 6
+        },
+        {
+            "productName": "Spaghetti",
+            "aisle": 5
+        },
+        {
+            "productName": "White chocolate chips",
+            "aisle": 13
+        },
+        {
+            "productName": "Dark chocolate",
+            "aisle": 11
+        },
+        {
+            "productName": "Milk chocolate",
+            "aisle": 11
+        },
+        {
+            "productName": "Cherry pepsi",
+            "aisle": 12
+        },
+        {
+            "productName": "Apple pie",
+            "aisle": 14
+        },
+        {
+            "productName": "Pork belly",
+            "aisle": 1
+        },
+        {
+            "productName": "Pecans",
+            "aisle": 13
+        },
+        {
+            "productName": "White pepper",
+            "aisle": 8
+        },
+        {
+            "productName": "Porridge",
+            "aisle": 8
+        },
+        {
+            "productName": "Toothbrush",
+            "aisle": 23
+        },
+        {
+            "productName": "Grapefruit",
+            "aisle": 0
+        },
+        {
+            "productName": "Pancakes",
+            "aisle": 14
+        },
+        {
+            "productName": "Rosemary",
+            "aisle": 8
+        },
+        {
+            "productName": "Thyme",
+            "aisle": 8
+        },
+        {
+            "productName": "Onion powder",
+            "aisle": 8
+        },
+        {
+            "productName": "Shallots",
+            "aisle": 0
+        },
+        {
+            "productName": "Beef slices",
+            "aisle": 2
+        },
+        {
+            "productName": "Turkey slices",
+            "aisle": 1
+        },
+        {
+            "productName": "Weetabix",
+            "aisle": 8
+        },
+        {
+            "productName": "Cayenne pepper",
+            "aisle": 8
+        },
+        {
+            "productName": "Vegetable oil",
+            "aisle": 10
+        },
+        {
+            "productName": "Baking soda",
+            "aisle": 13
+        },
+        {
+            "productName": "Mozzarella",
+            "aisle": 4
+        },
+        {
+            "productName": "White chocolate",
+            "aisle": 11
+        },
+        {
+            "productName": "Chipotle mayo",
+            "aisle": 7
+        },
+        {
+            "productName": "Red pepper",
+            "aisle": 0
+        },
+        {
+            "productName": "Baby potatoes",
+            "aisle": 0
+        },
+        {
+            "productName": "Honey",
+            "aisle": 13
+        },
+        {
+            "productName": "Pasta",
+            "aisle": 5
+        },
+        {
+            "productName": "Baking powder",
+            "aisle": 13
+        },
+        {
+            "productName": "Soy sauce",
+            "aisle": 5
+        },
+        {
+            "productName": "Cucumber",
+            "aisle": 0
+        },
+        {
+            "productName": "Mint",
+            "aisle": 0
+        },
+        {
+            "productName": "Parsley (fresh)",
+            "aisle": 0
+        },
+        {
+            "productName": "Cashews",
+            "aisle": 13
+        },
+        {
+            "productName": "Orange juice",
+            "aisle": 3
+        },
+        {
+            "productName": "Thyme (fresh)",
+            "aisle": 0
+        },
+        {
+            "productName": "Red Leicester cheese",
+            "aisle": 4
+        },
+        {
+            "productName": "Single cream",
+            "aisle": 3
+        },
+        {
+            "productName": "Pancetta",
+            "aisle": 1
+        },
+        {
+            "productName": "Broccoli",
+            "aisle": 1
+        },
+        {
+            "productName": "Chives",
+            "aisle": 0
+        },
+        {
+            "productName": "Tomato puree",
+            "aisle": 6
+        },
+        {
+            "productName": "Chicken Kievs",
+            "aisle": 1
+        },
+        {
+            "productName": "Gammon steaks",
+            "aisle": 1
+        },
+        {
+            "productName": "Pastrami",
+            "aisle": 1
+        },
+        {
+            "productName": "Gherkins",
+            "aisle": 0
+        },
+        {
+            "productName": "Barbecue sauce",
+            "aisle": 7
+        },
+        {
+            "productName": "Pita pockets",
+            "aisle": 14
+        },
+        {
+            "productName": "Gnocchi",
+            "aisle": 5
+        },
+        {
+            "productName": "Fat free yoghurt",
+            "aisle": 3
+        },
+        {
+            "productName": "Celery",
+            "aisle": 0
+        },
+        {
+            "productName": "Beef (braising)",
+            "aisle": 1
+        },
+        {
+            "productName": "Pasta sauce",
+            "aisle": 6
+        },
+        {
+            "productName": "Red pepper flakes",
+            "aisle": 8
+        },
+        {
+            "productName": "Self raising flour",
+            "aisle": 13
+        },
+        {
+            "productName": "Vinegar",
+            "aisle": 10
+        },
+        {
+            "productName": "Mascarpone",
+            "aisle": 4
+        },
+        {
+            "productName": "Orzo",
+            "aisle": 5
+        },
+        {
+            "productName": "Dill",
+            "aisle": 8
+        },
+        {
+            "productName": "Ginger",
+            "aisle": 0
+        },
+        {
+            "productName": "Macaroni",
+            "aisle": 5
+        },
+        {
+            "productName": "Garam masala",
+            "aisle": 8
+        },
+        {
+            "productName": "Greek yoghurt",
+            "aisle": 3
+        },
+        {
+            "productName": "Red pesto",
+            "aisle": 7
+        },
+        {
+            "productName": "Black beans",
+            "aisle": 5
+        },
+        {
+            "productName": "Light brown sugar",
+            "aisle": 14
+        },
+        {
+            "productName": "Ground cinnamon",
+            "aisle": 8
+        },
+        {
+            "productName": "Creme fraiche",
+            "aisle": 3
+        },
+        {
+            "productName": "Feta",
+            "aisle": 4
+        },
+        {
+            "productName": "Pears",
+            "aisle": 1
+        },
+        {
+            "productName": "Courgette",
+            "aisle": 0
+        },
+        {
+            "productName": "Coriander leaves",
+            "aisle": 0
+        },
+        {
+            "productName": "Asparagus",
+            "aisle": 0
+        },
+        {
+            "productName": "Butter (unsalted)",
+            "aisle": 4
+        },
+        {
+            "productName": "Sundried tomatoes",
+            "aisle": 7
+        },
+        {
+            "productName": "Smoky cajun seasoning",
+            "aisle": 8
+        },
+        {
+            "productName": "Burgers",
+            "aisle": 1
+        },
+        {
+            "productName": "Mouthwash",
+            "aisle": 23
+        },
+        {
+            "productName": "Mild chili powder",
+            "aisle": 8
+        },
+        {
+            "productName": "Cocoa powder",
+            "aisle": 13
+        },
+        {
+            "productName": "Haggis",
+            "aisle": 1
+        },
+        {
+            "productName": "Kitchen roll",
+            "aisle": 21
+        },
+        {
+            "productName": "Black pudding",
+            "aisle": 1
+        },
+        {
+            "productName": "Cooking spray",
+            "aisle": 10
+        }
+    ]
+}

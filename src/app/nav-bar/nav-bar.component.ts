@@ -4,7 +4,8 @@ import { Router } from '@angular/router';
 @Component({
     selector: 'app-nav-bar',
     templateUrl: './nav-bar.component.html',
-    styleUrls: ['./nav-bar.component.scss']
+    styleUrls: ['./nav-bar.component.scss'],
+    standalone: false
 })
 export class NavBarComponent implements OnInit {
 
@@ -13,12 +14,16 @@ export class NavBarComponent implements OnInit {
     ngOnInit(): void {
     }
 
-    goToShoppingListCreate(){
+    goToShoppingListCreate() {
         this.router.navigate(['/shopping-list/create']);
     }
 
-    goToShoppingListView(){
+    goToShoppingListView() {
         this.router.navigate(['/shopping-list/view']);
+    }
+
+    goToTest() {
+        this.router.navigate(['/test']);
     }
 
 }
