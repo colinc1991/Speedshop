@@ -1,9 +1,14 @@
-<div class="main-container noselect" *ngIf="values.length > 0" (click)="onSelectClick()">
+@if (values.length > 0) {
+  <div class="main-container noselect" (click)="onSelectClick()">
     {{selectedItem}} <fa-icon [icon]="faChevronDown"></fa-icon>
-
-    <div class="results-container" *ngIf="displayDropdown">
-        <div class="results-item" *ngFor="let value of values" (click)="onValueClick(value)">
+    @if (displayDropdown) {
+      <div class="results-container">
+        @for (value of values; track value) {
+          <div class="results-item" (click)="onValueClick(value)">
             {{value}}
-        </div>
-    </div>
-</div>
+          </div>
+        }
+      </div>
+    }
+  </div>
+}

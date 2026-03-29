@@ -1,16 +1,24 @@
 <div class="results-container">
-    <div *ngIf="mode=='Pantry'">
-        <div *ngFor="let item of pantryItems">
-            <div>
-                <app-search-result-item [mode]="mode" [receivedPantryItem]=item></app-search-result-item>
-            </div>
+  @if (mode=='Pantry') {
+    <div>
+      @for (item of pantryItems; track item) {
+        <div>
+          <div>
+            <app-search-result-item [mode]="mode" [receivedPantryItem]=item></app-search-result-item>
+          </div>
         </div>
+      }
     </div>
-    <div *ngIf="mode=='Recipe'">
-        <div *ngFor="let item of recipes">
-            <div>
-                <app-search-result-item [mode]="mode" [receivedRecipe]=item></app-search-result-item>
-            </div>
+  }
+  @if (mode=='Recipe') {
+    <div>
+      @for (item of recipes; track item) {
+        <div>
+          <div>
+            <app-search-result-item [mode]="mode" [receivedRecipe]=item></app-search-result-item>
+          </div>
         </div>
+      }
     </div>
+  }
 </div>

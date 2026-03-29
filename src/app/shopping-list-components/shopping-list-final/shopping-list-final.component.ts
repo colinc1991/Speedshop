@@ -4,7 +4,8 @@ import { Aisle, Category } from 'src/app/dtos';
 @Component({
     selector: 'app-shopping-list-final',
     templateUrl: './shopping-list-final.component.html',
-    styleUrls: ['./shopping-list-final.component.scss']
+    styleUrls: ['./shopping-list-final.component.scss'],
+    standalone: false
 })
 export class ShoppingListFinalComponent implements OnInit {
     aisles: Aisle[];

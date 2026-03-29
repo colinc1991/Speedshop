@@ -4,7 +4,8 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 @Component({
     selector: 'app-custom-select',
     templateUrl: './custom-select.component.html',
-    styleUrls: ['./custom-select.component.scss']
+    styleUrls: ['./custom-select.component.scss'],
+    standalone: false
 })
 export class CustomSelectComponent implements OnInit {
 

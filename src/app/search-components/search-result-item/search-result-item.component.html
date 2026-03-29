@@ -1,23 +1,35 @@
-<div *ngIf="mode=='Pantry'">
+@if (mode=='Pantry') {
+  <div>
     <div class="flex">
-        <div class="item-container">
-            {{receivedPantryItem.name}}
-        </div>
-        <div class="btn-container">
-            <fa-icon [icon]="faCirclePlus" (click)="addToShoppingList(receivedPantryItem)" *ngIf="receivedPantryItem.added == false"></fa-icon>
-            <fa-icon [icon]="faCircleCheck" (click)="removeFromShoppingList(receivedPantryItem)" *ngIf="receivedPantryItem.added == true"></fa-icon>
-        </div>
+      <div class="item-container">
+        {{receivedPantryItem.name}}
+      </div>
+      <div class="btn-container">
+        @if (receivedPantryItem.added == false) {
+          <fa-icon [icon]="faCirclePlus" (click)="addToShoppingList(receivedPantryItem)"></fa-icon>
+        }
+        @if (receivedPantryItem.added == true) {
+          <fa-icon [icon]="faCircleCheck" (click)="removeFromShoppingList(receivedPantryItem)"></fa-icon>
+        }
+      </div>
     </div>
-</div>
+  </div>
+}
 
-<div *ngIf="mode=='Recipe'">
+@if (mode=='Recipe') {
+  <div>
     <div class="flex">
-        <div class="item-container">
-            {{receivedRecipe.name}}
-        </div>
-        <div class="btn-container">
-            <fa-icon [icon]="faCirclePlus" (click)="addRecipeToShoppingList(receivedRecipe)" *ngIf="receivedRecipe.added == false"></fa-icon>
-            <fa-icon [icon]="faCircleCheck" (click)="removeRecipeFromShoppingList(receivedRecipe)" *ngIf="receivedRecipe.added == true"></fa-icon>
-        </div>
+      <div class="item-container">
+        {{receivedRecipe.name}}
+      </div>
+      <div class="btn-container">
+        @if (receivedRecipe.added == false) {
+          <fa-icon [icon]="faCirclePlus" (click)="addRecipeToShoppingList(receivedRecipe)"></fa-icon>
+        }
+        @if (receivedRecipe.added == true) {
+          <fa-icon [icon]="faCircleCheck" (click)="removeRecipeFromShoppingList(receivedRecipe)"></fa-icon>
+        }
+      </div>
     </div>
-</div>
+  </div>
+}

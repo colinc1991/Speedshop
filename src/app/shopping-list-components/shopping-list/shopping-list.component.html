@@ -1,6 +1,8 @@
 <div class="container-fluid">
-    <div *ngFor="let item of shoppingListItems">
-        <input type="checkbox" [id]=item>
-        <label [for]=item>{{item}}</label>
+  @for (item of shoppingListItems; track item) {
+    <div>
+      <input type="checkbox" [id]=item>
+      <label [for]=item>{{item}}</label>
     </div>
+  }
 </div>

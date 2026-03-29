@@ -1,0 +1,6 @@
+Current mapping of products to aisles needs changed to products to categories
+    each product should show one by one
+    we can then assign that product to an existing category or a new one
+Categories need assigned to aisles for morrisons
+User can choose a store
+Once a store is selected, a user can assign categories to aisles
