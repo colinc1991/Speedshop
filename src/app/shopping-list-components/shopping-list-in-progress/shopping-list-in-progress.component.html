@@ -1,5 +1,7 @@
 <div class="shopping-list-container">
-    <div *ngFor="let item of shoppingListItems">
-        <app-shopping-list-in-progress-item [shoppingListItem]="item"></app-shopping-list-in-progress-item>
+  @for (item of shoppingListItems; track item) {
+    <div>
+      <app-shopping-list-in-progress-item [shoppingListItem]="item"></app-shopping-list-in-progress-item>
     </div>
+  }
 </div>
