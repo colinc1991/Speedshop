@@ -6,7 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { SearchComponent } from './search-components/search/search.component';
 import { SearchResultsComponent } from './search-components/search-results/search-results.component';
 import { SearchResultItemComponent } from './search-components/search-result-item/search-result-item.component';
@@ -18,8 +18,7 @@ import { ShoppingListCreateComponent } from './shopping-list-components/shopping
 import { CustomSelectComponent } from './custom-select/custom-select.component';
 import { TestComponent } from './test/test.component';
 
-@NgModule({
-    declarations: [
+@NgModule({ declarations: [
         AppComponent,
         NavBarComponent,
         RecipeListComponent,
@@ -34,14 +33,8 @@ import { TestComponent } from './test/test.component';
         CustomSelectComponent,
         TestComponent
     ],
-    imports: [
-        BrowserModule,
+    bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,
         FontAwesomeModule,
-        FormsModule,
-        HttpClientModule
-    ],
-    providers: [],
-    bootstrap: [AppComponent]
-})
+        FormsModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }

@@ -15,17 +15,20 @@
             "prefix": "app",
             "architect": {
                 "build": {
-                    "builder": "@angular-devkit/build-angular:browser",
+                    "builder": "@angular-devkit/build-angular:application",
                     "options": {
                         "stylePreprocessorOptions": {
                             "includePaths": [
                                 "src/assets"
                             ]
                         },
-                        "outputPath": "dist/speedshop-v2",
+                        "outputPath": {
+                          "base": "dist/speedshop-v2"
+                        },
                         "index": "src/index.html",
-                        "main": "src/main.ts",
-                        "polyfills": "src/polyfills.ts",
+                        "polyfills": [
+                          "src/polyfills.ts"
+                        ],
                         "tsConfig": "tsconfig.app.json",
                         "inlineStyleLanguage": "scss",
                         "assets": [
@@ -38,7 +41,8 @@
                         ],
                         "scripts": [
                             "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-                        ]
+                        ],
+                        "browser": "src/main.ts"
                     },
                     "configurations": {
                         "production": {
@@ -63,9 +67,7 @@
                             "outputHashing": "all"
                         },
                         "development": {
-                            "buildOptimizer": false,
-                            "optimization": false,
-                            "vendorChunk": true,
+                          "optimization": false,
                             "extractLicenses": false,
                             "sourceMap": true,
                             "namedChunks": true
